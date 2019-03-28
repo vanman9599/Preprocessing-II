@@ -172,6 +172,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px dashed #C0C0C0;
 }
 @media (max-width: 500px) {
   .nav {
@@ -304,7 +305,7 @@ img {
   font-size: 2rem;
   border-radius: 10px;
   width: 200px;
-  background-color: #008080;
+  background-color: #17A2B8;
   color: white;
   display: flex;
   justify-content: center;
