@@ -173,6 +173,11 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+  }
+}
 .nav h1 {
   display: flex;
   justify-content: flex-start;

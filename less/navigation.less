@@ -3,8 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media @mobile{
+        flex-direction: column;
+            }
     h1{
         .custom-layout(flex-start, center);
+        @media @mobile{
+            
+        }
     }    
     nav{
         .custom-layout(flex-end, center);
@@ -13,6 +19,7 @@
            margin-left: 20px;
            text-decoration: none;
            color: black;
+           
         }
     }
     
