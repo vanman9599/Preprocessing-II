@@ -168,6 +168,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .nav h1 {
   display: flex;
   justify-content: flex-start;
