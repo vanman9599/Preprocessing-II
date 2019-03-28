@@ -11,7 +11,7 @@
     align-items: center;
   }
   
-  .custom-btn(@width: 200px, @bgColor: #FFBF27, @fontColor: black ) {
+  .custom-btn(@width, @bgColor, @fontColor) {
     display: block;
     margin: 0 10px 20px;
     cursor: pointer;
@@ -22,18 +22,9 @@
     background-color: @bgColor;
     color: @fontColor;
       
-    &:hover {
-      background-color: @fontColor;
-      color: @bgColor;
-    }
     
-    @media @tablet {
-      width: 90%;
-      height: 50px;
-      font-size: 2.5rem;
-    }
   }
-  .custom-layout(@justify: center, @align: center) {
+  .custom-layout(@justify, @align) {
     display: flex;
     justify-content: @justify;
     align-items: @align;
